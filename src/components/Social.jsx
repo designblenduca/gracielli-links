@@ -23,9 +23,10 @@ function WhatsAppIcon() {
 }
 
 const links = [
-  { label: "Instagram", href: "#", Icon: InstagramIcon },
-  { label: "LinkedIn", href: "#", Icon: LinkedInIcon },
-  { label: "WhatsApp", href: "#", Icon: WhatsAppIcon },
+  { label: "Instagram", href: "https://www.instagram.com/gracicamini/", Icon: InstagramIcon },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/graci%C3%A9lli-draczevski-camini-a0548350/", Icon: LinkedInIcon },
+  { label: "WhatsApp 1", href: "http://wa.me/5549988398169", Icon: WhatsAppIcon },
+  { label: "WhatsApp 2", href: "http://wa.me/5549991094075", Icon: WhatsAppIcon },
 ];
 
 export default function Social() {
