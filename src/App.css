@@ -33,6 +33,18 @@ body {
   padding: 0 20px 60px;
 }
 
+/* ── ABAIXO DO DESKTOP ── */
+@media (max-width: 1144px) {
+  .container {
+    padding: 0 32px 60px;
+  }
+
+  .container .banners {
+    margin-left: -32px;
+    margin-right: -32px;
+  }
+}
+
 /* ── MOBILE ── */
 @media (max-width: 600px) {
   .container {
