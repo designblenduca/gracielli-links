@@ -1,8 +1,10 @@
+const base = import.meta.env.BASE_URL;
+
 const banners = [
-  { id: "01", href: "#", label: "Comunidade de líderes", src: "/Banner - 1.png" },
-  { id: "02", href: "#", label: "O mapa da expansão do líder", src: "/Banner - 2.png" },
-  { id: "03", href: "#", label: "Jeito plena de ser", src: "/Banner - 3.png" },
-  { id: "04", href: "#", label: "Descubra seu perfil de liderança", src: "/Banner - 4.png" },
+  { id: "01", href: "#", label: "Comunidade de líderes", src: `${base}Banner - 1.png` },
+  { id: "02", href: "#", label: "O mapa da expansão do líder", src: `${base}Banner - 2.png` },
+  { id: "03", href: "#", label: "Jeito plena de ser", src: `${base}Banner - 3.png` },
+  { id: "04", href: "#", label: "Descubra seu perfil de liderança", src: `${base}Banner - 4.png` },
 ];
 
 export default function Banners() {

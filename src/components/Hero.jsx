@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className="hero__avatar">
-        <img src="/icon.png" alt="Gracielli Camini" />
+        <img src={`${import.meta.env.BASE_URL}icon.png`} alt="Gracielli Camini" />
       </div>
       <h1 className="hero__name">Gracielli Camini</h1>
       <p className="hero__bio">
